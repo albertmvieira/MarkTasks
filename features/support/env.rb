@@ -16,6 +16,7 @@ if $headless
     end
 end
 
+#Config capybara para firefox, chrome e chrome_headless
 Capybara.configure do |config|
     if $env == 'chrome'
         config.default_driver = :selenium_chrome
