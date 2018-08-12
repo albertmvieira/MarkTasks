@@ -2,7 +2,7 @@
 #Arquivo yaml é para configurações do cucumber, Todo arquivo yaml começa com ---
 
 #Configuração para execução padrão do cucumber (com geração de relatórios)
-default: --format progress -p html -p chrome_headless
+default: --format progress -p html -p chrome
 html: --format html --out=logs/features.html
 
 # configuração para setar o browser de acordo com o parametro
